@@ -1,0 +1,74 @@
+in proceedings:
+  - id: pinto2020clusterBoot
+    title: Explorando métodos alternativos em previsões de séries temporais com bagging e clustering
+    type: conference
+    authors:
+      - David Souza Pinto
+      - Fernando Luiz Cyrino Oliveira
+      - Tiago Mendes Dantas
+    where: Anais do LII Simpósio Brasileiro de Pesquisa Operacional
+    year: 2020
+    pages: 1-12
+    city: João Pessoal, Brasil
+    issn: 1518-1731
+  
+  - id: moura2019roteamento
+    title: Roteamento de veículos escolares da cidade de Macaé
+    type: conference
+    authors:
+      - Luize de Magalhães Moura
+      - David Souza Pinto
+    where: Anais do XXVI Simpósio de Engenharia de Produção
+    abbr: simpep
+    year: 2019
+    pages: 1–11
+    city: Bauru, Brasil
+    issn: 1809-7189
+
+  - id: sbpo2019mh
+    title: Proposta de uma abordagem híbrida de simulação e heurística para um problema de flowshop estocástico
+    type: conference
+    authors:
+      - Pedro Villarinho
+      - David Pinto
+      - Mauricio Lila
+      - Javier Panadero
+      - Fernando Cyrino
+      - Luciana Pessoa
+    where: Anais do LI Simpósio Brasileiro de Pesquisa Operacional
+    abbr: sbpo
+    year: 2019
+    vol: 2
+    pages: 1–12
+    city: Limeira, Brasil
+    issn: 1518-1731
+    
+  - id: pinto2018lss
+    title: Emprego de pacotes para R na condução de um projeto Black Belt Lean Six Sigma
+    type: conference
+    authors:
+      - David Souza Pinto
+      - Ana Paula Barbosa Sobral
+      - Robison Damasceno Calado
+    where: Anais do III Seminário Internacional de Estatística com R
+    abbr: ser
+    year: 2018
+    vol: 3
+    pages: 1–15
+    city: Niterói, Brasil
+    issn: 2526-7299
+
+registered software:
+  - id: pinto2019eoq
+    title: EOQ
+    lang: R
+    authors:
+      - David Souza Pinto
+      - Pedro Araújo Villarinho
+      - Júlia Lima Fleck
+    where: Instituto Nacional de Propriedade Intelectual
+    abbr: inpi
+    regno: BR 51 2019 002291 2
+    year: 2019
+    # license: type of license
+    # source: add link to git

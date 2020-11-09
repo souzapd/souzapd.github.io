@@ -1,0 +1,21 @@
+author: David Souza Pinto
+title: David Souza
+description: Industrial Engineer & Data Scientist
+keywords: "Engineering, Industrial Engineering, Six Sigma, 
+          Lean Manufacturing, Supply Chain, Logistics, Simulation, 
+          Operations Research, Optimisation, Metaheuristics, 
+          Statistics, Data Science, Machine Learning, Visualisation, 
+          Time Series, Programming, R, Python, D3, JavaScript, Swift, 
+          Sweave, LaTeX"
+
+baseurl: ""
+url: https://souzapd.github.io/
+
+highlighter: rouge
+markdown: kramdown
+permalink: /:year/:title/
+
+linkedin: souzapd
+github: souzapd
+orcid: 0000-0002-3076-4007
+flickr: souzapd
