@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class='post-meta'>
+    <h1>{{ page.title }}</h1>
+    <span>
+        {% if page.author %}<em>{{ page.author }}</em><br/>{% endif %}
+        <abbr>
+            {% if page.date %}{{ page.date | date: '%d %b %Y' }}&nbsp;·&nbsp;{% endif %}
+            {% if page.tags %}{{ page.tags | join: ', ' }}{% endif %}
+        </abbr>
+    </span>
+</div>
+<article>
+    {{ page.content }}
+</article>

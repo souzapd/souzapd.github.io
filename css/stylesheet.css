@@ -35,7 +35,7 @@ body {
 
 header {
     margin: 0 auto 0 auto;
-    height: 56px;
+    height: 45px;
 }
 
 main {
@@ -43,7 +43,6 @@ main {
 }
 
 h1 {
-    font-family: source-sans-pro, sans-serif;
     font-size: large;
     font-weight: 600;
 }
@@ -187,9 +186,14 @@ div.footnotes p {
     float: left;
 }
 
+.title a {
+    border: none;    
+}
+
 .socials {
     display: inline-block;
     float: right;
+    line-height: 1.9;
 }
 
 .socials a {
@@ -198,15 +202,22 @@ div.footnotes p {
     border: none;
     padding: 0px 0 0 8px;
     font-size: 1.2rem;
-    line-height: 1.9;
 }
 
-.socials a:hover, .socials a:focus {
+.socials a:hover, .socials a:focus, .title a:hover, .title a:focus, {
     background: transparent;
     color: #d50a00;
     border: none;
 }
 
+.post-meta {
+    margin: 1.6rem 0 1.25rem 0;
+}
+
+.post-meta h1 {
+    font-family: source-serif-pro, serif;
+    font-size: xx-large;
+}
 
 /* Code highlighting */
 code {

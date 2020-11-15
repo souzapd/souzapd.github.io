@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <h1 class='title'>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+        <h1 class='title'><a href='/'>{{ site.title }}</a></h1>
         <div class='socials'>
             {%- if site.linkedin -%}
                 <a href='https://linkedin.com/in/{{ site.linkedin }}' class='fab fa-linkedin-in' class='icon'></a>
