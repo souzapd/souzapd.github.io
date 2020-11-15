@@ -204,7 +204,7 @@ div.footnotes p {
     font-size: 1.2rem;
 }
 
-.socials a:hover, .socials a:focus, .title a:hover, .title a:focus, {
+.socials a:hover, .socials a:focus, .title a:hover, .title a:focus {
     background: transparent;
     color: #d50a00;
     border: none;
