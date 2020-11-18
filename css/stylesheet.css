@@ -27,7 +27,7 @@ html {
 body {
     font-family: source-serif-pro, serif;
     overflow-y: scroll;
-    max-width: 36rem;
+    max-width: 38rem;
     padding: 42px 2.2rem 1.5rem 2.2rem;
     margin: 0 auto 0 auto;
     text-rendering: optimizeLegibility;
