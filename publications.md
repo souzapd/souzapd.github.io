@@ -1,6 +1,7 @@
 ---
-layout: main
+layout: core
 title: Publications
+tags: "Index of"
 ---
 
 <div>

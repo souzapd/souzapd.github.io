@@ -20,6 +20,7 @@ html {
     font-family: source-serif-pro, serif;
     font-weight: 400;
     line-height: 1.4;
+    font-size: 100%;
     color: black;
     background-color: white;
 }
@@ -34,8 +35,6 @@ body {
 }
 
 header {
-    margin: 0 auto 0 auto;
-    height: 45px;
     display: block;
 }
 
@@ -51,9 +50,9 @@ h1 {
 h2 {
     font-family: source-sans-pro, sans-serif;
     font-size: medium;
+    font-variant: small-caps;
     font-weight: 400;
     text-transform: lowercase;
-    font-feature-settings: 'smcp';
 }
 
 p {
@@ -87,7 +86,7 @@ hr {
     border: none;
     border-top: 2px solid black;
     width: 36px;
-    margin: 0 0 1ex 0;
+    margin: 1.5ex 0 1ex 0;
 }
 
 a {
@@ -185,7 +184,7 @@ div.footnotes p {
     font-weight: 400;
     font-style: italic;
     display: inline-block;
-    float: left;
+    /*float: left;*/
 }
 
 .title a {
@@ -212,16 +211,27 @@ div.footnotes p {
     border: none;
 }
 
-.post-meta {
-    margin: 1.6rem 0 1.25rem 0;
+.page-meta {
+    margin: 0rem 0 1rem 0;
 }
 
-.post-meta h1 {
+.page-meta h1 {
     font-family: source-serif-pro, serif;
-    font-size: xx-large;
+    font-size: large;
 }
 
-.post-meta h2 {
+/*.page-meta h2 {
+    color: #d50a00;
+    margin: 0 0 -0.4ex 0;
+}*/
+
+.page-meta h2 {
+    font-family: source-serif-pro, serif;    
+    font-size: medium;
+    font-style: italic;
+    font-variant: none;
+    text-transform: none;
+    margin: 0 0 -0.4ex 0;
     color: #d50a00;
 }
 
