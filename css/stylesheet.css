@@ -207,7 +207,7 @@ div.footnotes p {
 
 .socials a:hover, .socials a:focus, .title a:hover, .title a:focus {
     background: transparent;
-    color: #d50a00;
+    color: #c91f37;
     border: none;
 }
 
@@ -220,11 +220,6 @@ div.footnotes p {
     font-size: large;
 }
 
-/*.page-meta h2 {
-    color: #d50a00;
-    margin: 0 0 -0.4ex 0;
-}*/
-
 .page-meta h2 {
     font-family: source-serif-pro, serif;    
     font-size: medium;
@@ -232,14 +227,14 @@ div.footnotes p {
     font-variant: none;
     text-transform: none;
     margin: 0 0 -0.4ex 0;
-    color: #d50a00;
+    color: #c91f37;
 }
 
 /* Code highlighting */
 code {
     font-family: Menlo, Monaco, 'Courier New', monospace;
     font-size: medium;
-    color: #bd081c;
+    color: #c91f37;
     background-color: #eee;
     padding: .2em .4em;
     border-radius: 3px;
