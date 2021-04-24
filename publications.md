@@ -1,7 +1,7 @@
 ---
 layout: core
 title: Publications
-tags: "Index of"
+tag: Index of
 ---
 
 <div>
