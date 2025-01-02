@@ -1,0 +1,22 @@
+Dashboards & Notebooks:
+  - title: Sars-CoV-2/COVID-19
+    link: https://observablehq.com/@souzapd/covid-19
+    description: Interactive notebook on the evolution of Covid-19 around the globe.
+  
+  - title: Airbnb in the city of Rio de Janeiro
+    link: https://souzapd.github.io/vis/airbnb-rio
+    description: Interactive map with Airbnb data for the city of Rio de Janeiro.
+
+
+Workshops [in Portuguese]:
+  - title: Análise de Dados e Produção de Relatórios com R (2022)
+    link: https://souzapd.github.io/minicursos/ADPRR.pdf
+    description: Introdução a R para a análise exploratória de dados e produção de relatórios.
+  
+  - title: Preparando artigos científicos com LaTeX (2020)
+    link: https://souzapd.github.io/minicursos/artigos-latex.pdf
+    description: Introdução ao uso de LaTeX e BibTeX para a produção de textos acadêmicos.
+  
+  - title: R aplicado à Engenharia (2019)
+    link: https://souzapd.github.io/minicursos/R4Eng.pdf
+    description: Introdução a R com aplicações a problemas de Engenharia de Produção.
