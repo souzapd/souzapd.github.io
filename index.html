@@ -8,67 +8,22 @@
     <meta content='text/html; charset=utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <meta name='keywords' content={{ site.keywords }} />
+    <meta name='keywords' content='{{ site.keywords }}' />
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css'>
-    
-    <style>        
-        @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-    </style>
-    
-    <style type="text/css">
-        * {
-            -webkit-font-feature-settings: 'onum', 'pnum', 'liga=1';
-               -moz-font-feature-settings: 'onum', 'pnum', 'liga=1';
-                -ms-font-feature-settings: 'onum', 'pnum', 'liga';
-                 -o-font-feature-settings: 'onum', 'pnum', 'liga';
-                    font-feature-settings: 'onum', 'pnum', 'liga';
-        }
-        
-        .c-serif-font {
-            font-family: 'PT Serif', serif;
-            font-weight: 400;
-        }
-        
-        .f2-x {
-            font-size: 1.8rem;   
-        }
-    </style>
-    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css'>    
     <title>{{ site.pagetitle }}</title>
 </head>
-<body class='c-serif-font center f4-l f5 ph0-l ph3 pt0 measure overflow-y-visible'>
-    <header class='tc mt4-l tl'>
-        <h1 class='f2-x fw4 lh-title mb0'>{{ site.pagetitle }}</h1>
-        <nav class='pv2 f4 db'>
-            <a class='link black hover-green dib' href='https://github.com/{{ site.github }}'><i class='fab fa-github'></i></a>
-            <a class='link black hover-green dib ml3' href='https://linkedin.com/in/{{ site.linkedin }}'><i class='fab fa-linkedin-in'></i></a>
+<body class='georgia vh-100 flex items-center justify-center overflow-y-visible bg-washed-yellow near-black'>
+    <main>
+        <h1 class='center tc fw4 f2 mb0'>{{ site.pagetitle }}</h1>
+        <p class='center tc f5 avenir mt2'>{{ site.tagline }}</p>
+        <div class='mt2 f4 tl measure'>
+            <p> {{ site.aboutme }}</p>
+        </div>
+        <nav class='mt4 f2 tc center'>
+            <a class='dib link near-black hover-dark-blue' href='https://linkedin.com/in/{{ site.linkedin }}'><i class='fab fa-linkedin-in'></i></a>
+            <a class='dib link near-black hover-dark-blue ml3' href='https://github.com/{{ site.github }}'><i class='fab fa-github'></i></a>
         </nav>
-    </header>
-    
-    <main class='lh-title'>
-        <div class='bt w-100 fl mt4 mb4'>
-            <h1 class='f4 fw5 mt1 mb0 helvetica lh-title'>About me</h3>
-            <p>{{ site.aboutme }}</p>
-        </div>
-        
-        
-        
-        
-        {%- for section in site.data.sections -%}
-        <div class='bt w-100 fl mt2 mb4'>
-            <h1 class='f4 fw5 mt1 helvetica lh-title'>{{ section[0] }}</h3>
-            <dl class='helvetica lh-title mt0'>
-                {%- for item in section[1] -%}
-                <dt class='b mt3'><a class='no-underline link black hover-green' href='{{ item.link }}'>{{ item.title }}</a></dt>
-                <dd class='c-serif-font ma0'>{{ item.description }}</dd>
-                
-                {%- endfor -%}
-            </dl>
-        </div>
-        {%- endfor -%}
-        
-        
     </main>
 </body>
 </html>

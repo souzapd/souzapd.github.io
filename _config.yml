@@ -2,27 +2,22 @@ author: David Souza Pinto
 pagetitle: David Souza
 
 keywords: > 
-  "Operations Management, Scheduling, Production Planning, 
-  Inventory Management, Operations Research, Decision Support, Lean Six Sigma, 
-  Data Analysis, Simulation, Programming, R, Python, LaTeX"
+  analytics engineering, statistical learning, 
+  statistical machine learning, machine learning, 
+  time series forecasting, data analysis, 
+  simulation, r, python, quarto, sql, data engineering, 
+  decision support, operations research, lean six sigma, kaizen, 
+  operations management, supply chain operations,
+  scheduling, production planning, inventory management
+
+tagline: >
+  Analytics Engineering · Statistical Machine Learning · Data Visualisation
 
 aboutme: >
-  Analytics Specialist with a MSc in Industrial Engineering and 6 years of 
-  experience using advanced analytics to support decision-making. I excel at 
-  analytics engineering, statistical machine learning, and data visualisation.
-  <br>
+  I am an Analytics Specialist with a MSc in Industrial Engineering
+  and six years of experience transforming data into tools that
+  support decision-making across varied industries.
 
-  These skills allow me to transform business data into solutions that support
-  daily operations. I have delivered reduced data usage by optimising queries
-  against data warehouses; automated reports for OKR tracking; and implemented
-  time series forecasting models for operations planning.
-  <br>
-
-  I am also a strong proponent of kaizen (continuous improvement), having
-  spearheaded initiatives to improve business processes using Six Sigma and
-  to promote data literacy. I have experience supporting local and
-  international teams in delivering analytics solutions across various
-  industries, such as Energy, Education, and Food.
 
 
 baseurl: ""
